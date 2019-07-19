@@ -169,7 +169,7 @@ $ docker container run -d --name nginx-test -p 8080:80 nginx
 ```
 
 
-El primero de los dos comandos descarga la imagen del contenedor NGINX, y el segundo lanza un contenedor en el fondo llamado nginx-test usando la imagen nginx que tirado. También asigna el puerto 8080 en nuestra máquina host al puerto 80 en el contenedor, haciéndolo
+El primero de los dos comandos descarga la imagen del contenedor NGINX, y el segundo lanza un contenedor en el fondo llamado nginx-test usando la imagen nginx que ha descargado. También asigna el puerto 8080 en nuestra máquina host al puerto 80 en el contenedor, haciéndolo
 accesible a nuestro navegador local en este [enlace](http://localhost:8080/)
 
 ![Salida del comando docker version](index-02.png)
@@ -212,7 +212,7 @@ Si el valor de una opción contiene espacios, escriba el valor entre comillas
 
 ### Imágenes
 #
-En los comandos siguientes REPOSITORIO es el nombre del repositorio en el que se encuentra la imagen (por ejemplo usuario/phpmyadmin) e IMAGEN es el nombre de la imagen descargada. Realmente, las imágenes descargadas se llaman igual que los repositorios de donde se han descargado, pero he distinguido los nombres para dejar claro cuándo nos estamos haciendo referencia a la imagen del repositiorio y cuándo a la imagen local.
+En los comandos siguientes REPOSITORIO es el nombre del repositorio en el que se encuentra la imagen (por ejemplo usuario/phpmyadmin) e IMAGEN es el nombre de la imagen descargada. Realmente, las imágenes descargadas se llaman igual que los repositorios de donde se han descargado, pero he distinguido los nombres para dejar claro cuándo nos estamos haciendo referencia a la imagen del repositorio y cuándo a la imagen local.
 
 Para gestionar las imágenes, se utiliza el comando:
 ```
